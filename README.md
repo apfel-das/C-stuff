@@ -6,7 +6,7 @@
     - Type Casting 
     - Memory Management in C
     
-    Written for academic purpose (Technincal university of Crete, MHL Lab)
+    Most (but not all ) were written for academic purposes  (Technincal university of Crete, MHL Lab)
     
     Scripts explained above:
                                                                                       
