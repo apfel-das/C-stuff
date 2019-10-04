@@ -23,4 +23,9 @@
  	- Creates a printable  triangle via an Array (formating output %4d and nested loops)
  	- Checks if a numer is odd or even (via a mask with 1)
  	- Transfers elements from A to B where A,B are arrays
+  
+  3. substringFinder.c
+ 	- Locates any given substring from a string (both Intrepreted as Arrays)
+ 	- Code was wrote down in paper as a final exam topic
+ 	- Uploaded in MIPS Assembly as well (actual goal of the exam was that)
  	
