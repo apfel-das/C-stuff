@@ -18,3 +18,9 @@
  	- Delete an Element (based on some value inside a node)
  	- Print all Elements (hierarhycally)
  	- Print Info concerning size of elements, base address etc.
+
+ 2. someScript.c
+ 	- Creates a printable  triangle via an Array (formating output %4d and nested loops)
+ 	- Checks if a numer is odd or even (via a mask with 1)
+ 	- Transfers elements from A to B where A,B are arrays
+ 	
