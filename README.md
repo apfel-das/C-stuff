@@ -29,4 +29,9 @@
 - Locates any given substring from a string (both Intrepreted as Arrays)
    - Code was wrote down in paper as a final exam topic
    - Uploaded in MIPS Assembly as well (actual goal of the exam was that)
- 	
+   
+ 4. pairFinder.c
+    - Solution for a Google Interview problem.
+    - Goal is to find any pair (in a given structure of known size) with has a predefined sum.
+    - [1,3,4,4] -> 8 (OK)
+    - [1,3,4,9] -> 8 (NOT OK)	
