@@ -169,7 +169,7 @@ while((ptr != NULL) && (ptr->value != v)){
     ptr=ptr->next;
 }
 if(ptr == NULL){
-  printf("Element not found- NonExistenElement Error \n");
+  printf("Element not found- NonExistentElement Error \n");
   return;
 }
   printf("Element found value=%d id=%d \n",ptr->value,ptr->id);
@@ -189,12 +189,22 @@ if(head==NULL){
  printf("Unable to Delete/EMPTY LIST\n");
  return (head);
 }
-if(head->next == NULL){  /*list of one element */
- free(head);
- head=NULL;   //perhaps buggy,deletes no matter what the target is!//
- return (head);
+if(head->next == NULL)
+{  /*list of one element */
+    if(v == n1->value )
+    {
+        free(head);
+        head=NULL;
+    }
+    else
+    {
+        printf("Unable to perform deletion - Value not found\n");
+
+    }
+
+        return (head);
 }
-else{
+else {
  while((n1->next != NULL) &&(n1->value != v)) { /* search node to delete via value criteria */
 
  n2=n1;
