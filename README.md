@@ -35,3 +35,12 @@
     - Goal is to find any pair (in a given structure of known size) with has a predefined sum.
     - [1,3,4,4] -> 8 (OK)
     - [1,3,4,9] -> 8 (NOT OK)	
+ 5. arrayPointers.c
+    - Demonstrates a way to create an Array of pointers, pointing to any struct
+    
+ 6. doubleLinkedLists.c
+    - Create two double linked lists
+    - Insert elements at end
+    - Store heads and tails in an Array
+    - Acess list's base addreses using the array.
+ 
